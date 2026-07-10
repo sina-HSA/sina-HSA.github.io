@@ -3,7 +3,7 @@ locale                   : "en-US"
 site_theme               : "mint"          # گزینه‌های خوب: default, air, mint, sunrise
 title                    : "Sina Darabi"
 title_separator          : "-"
-name                     : "Sina Darabi"
+name                     : "Sina Darabi Moghaddam"
 description              : "Senior Research Engineer at Barcelona Supercomputing Center | Computer Architecture, HPC & AI Systems"
 url                      : "https://sina-hsa.github.io"
 baseurl                  : ""

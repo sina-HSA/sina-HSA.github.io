@@ -1,55 +1,43 @@
 ---
-title: "About"
-permalink: /about/
+permalink: /
+title: "Sina Darabi"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
-# Sina Darabi
+I am a Senior Research Engineer at the [Barcelona Supercomputing Center](https://www.bsc.es/) (BSC-CNS)
+in Spain. My research focuses on computer architecture and high-performance computing (HPC) for AI, with
+particular emphasis on networking, memory systems, and high-throughput processor design.
 
-Senior Research Engineer at **Barcelona Supercomputing Center (BSC-CNS)**
+I develop hardware–software co-design techniques to improve scalability, energy efficiency, and
+performance predictability for next-generation AI and datacenter systems. My work has been published in
+leading computer architecture and systems/networking venues, including ISCA, MICRO, SIGMETRICS, and NSDI.
 
-## Bio
+Before joining BSC I was a postdoctoral researcher with
+[Patrick Eugster](https://www.inf.usi.ch/faculty/eugster/) at Università della Svizzera italiana (USI) in
+Lugano, Switzerland, and at the Institute for Research in Fundamental Sciences (IPM) in Tehran. I received
+my Ph.D. from Sharif University of Technology under the supervision of Professor Hamid Sarbazi-Azad, and
+it was selected as the best computer science Ph.D. thesis in Iran by the Computer Society of Iran.
 
-Sina Darabi is a Senior Research Engineer at the Barcelona Supercomputing Center (BSC-CNS), Spain. His research focuses on computer architecture and high-performance computing (HPC) for AI, with particular emphasis on networking, memory systems, and high-throughput processor design. He develops hardware-software co-design techniques to improve scalability, energy efficiency, and performance predictability for next-generation AI and datacenter systems. His work has been published in leading venues including **ISCA, MICRO, SIGMETRICS, and NSDI**.
+Research interests
+======
+* **Architecture**: GPU memory hierarchies, last-level cache management, DRAM and 3D-stacked memory design,
+  high-throughput processors
+* **Systems and networking**: datacenter microbursts, web caching, load balancing, in-network coordination
+* **HPC for AI**: hardware–software co-design for scalable, energy-efficient, predictable AI infrastructure
 
-## Education
+News
+======
+* **Jul 2026**: Two papers to appear — *Lazy-LLC* at MICRO 2026 and *CacheCatalyst* at NSDI 2026.
+* **2026**: Joined the Barcelona Supercomputing Center as a Senior Research Engineer.
+* **2024**: Passed the first stage of the SNSF Ambizione grant evaluation.
+* **2023**: Received the award for the best computer science Ph.D. thesis in Iran.
+* **2022**: *Morpheus* appeared at MICRO 2022, the first MICRO paper from an Iranian university.
 
-- **Ph.D.** in Computer Engineering (2015–2022)  
-  Sharif University of Technology  
-  *Best Ph.D. Thesis Award* – Computer Society of Iran
-
-- **M.S.** in Computer Engineering (2013–2015)  
-  Isfahan University of Technology
-
-- **B.S.** in Computer Engineering – Hardware (2007–2012)  
-  Isfahan University of Technology
-
-## Employment
-
-- **2026–present**: Senior Research Engineer – Barcelona Supercomputing Center (BSC-CNS), Spain
-- **2023–2026**: Postdoctoral Researcher – Università della Svizzera italiana (USI), Lugano, Switzerland
-- **2022–2023**: Postdoctoral Researcher – Institute for Research in Fundamental Sciences (IPM), Tehran
-
-## Awards & Achievements
-
-- 2024: Passed first stage of SNSF Ambizione grant
-- 2023: **Best Ph.D. Thesis Award** – Computer Society of Iran
-- 2022: First Ph.D. student from Iranian universities with three top-tier conference papers (MICRO 2022)
-- 2012: $30,000 grant for pacemaker development – Kermanshah University of Medical Sciences
-
-## Teaching Experience
-
-**Instructor**  
-- Advanced Computer Architecture (Fall 2024) – Shahid Beheshti University
-
-**Teaching Assistant** (Sharif University of Technology)  
-- Advanced Computer Architecture, Interconnection Networks, Hardware Description Language, Numerical Computation, Computer Architecture Lab
-
-## Skills
-
-**Programming:** C/C++, Python, CUDA, BASH, Verilog  
-**Documentation:** LaTeX, Microsoft Office  
-**Simulators & Tools:** GPGPUSim, Gem5, ModelSim, Cadence, Design Compiler
-
-## References
-
-Available upon request (Patrick Eugster, Hamid Sarbazi-Azad, Ahmad Khonsari)
+Contact
+======
+The fastest way to reach me is by email at [darabs@usi.ch](mailto:darabs@usi.ch). You can also find my
+work on [Google Scholar](https://scholar.google.com/citations?user=WtcbKwkAAAAJ&hl=en), and download my
+[CV as a PDF](/files/cv.pdf).

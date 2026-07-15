@@ -16,9 +16,9 @@ performance predictability for next-generation AI and datacenter systems. My wor
 leading computer architecture and systems/networking venues, including ISCA, MICRO, SIGMETRICS, and NSDI.
 
 Before joining BSC I was a postdoctoral researcher with
-[Patrick Eugster](https://www.inf.usi.ch/faculty/eugster/) at Università della Svizzera italiana (USI) in
+[Patrick Eugster](https://www.inf.usi.ch/faculty/eugstp/) at Università della Svizzera italiana (USI) in
 Lugano, Switzerland, and at the Institute for Research in Fundamental Sciences (IPM) in Tehran. I received
-my Ph.D. from Sharif University of Technology under the supervision of Professor Hamid Sarbazi-Azad, and
+my Ph.D. from Sharif University of Technology under the supervision of Professor [Hamid Sarbazi-Azad](https://www.newuu.uz/en/employee/view/faculty-members/478), and
 it was selected as the best computer science Ph.D. thesis in Iran by the Computer Society of Iran.
 
 Research interests

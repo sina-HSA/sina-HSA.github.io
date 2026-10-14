@@ -9,4 +9,4 @@ Pages: index.html (Home), research.html, publications.html, experience.html,
 awards.html, mentoring.html, news.html
 
 GitHub Pages: repository named <username>.github.io -> Settings -> Pages ->
-Deploy from branch "main" (root folder).
+Deploy from branch "master" (root folder).

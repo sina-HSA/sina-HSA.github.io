@@ -6,6 +6,9 @@ change things through the menu (including the profile photo's display width unde
 fields that are filled from it. Choose "Build", then upload ALL files in this folder again
 (or use the "Publish" option).
 
+For Google Search Console HTML verification, keep the downloaded `google*.html` file
+beside `build_site.py`. The builder copies it unchanged to the website root.
+
 Pages: index.html (Home), research.html, publications.html, experience.html,
 awards.html, mentoring.html, news.html
 

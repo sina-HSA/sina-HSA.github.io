@@ -109,6 +109,7 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 8
 footer{border-top:1px solid var(--line);padding:36px 0;color:var(--muted);font-size:.9rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 footer nav{display:flex;flex-wrap:wrap;gap:18px}
+footer .email-image{display:block;width:auto;height:1.35em}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
@@ -131,14 +132,14 @@ footer nav{display:flex;flex-wrap:wrap;gap:18px}
   <div class="wrap nav">
     <a class="brand" href="index.html">Sina Darabi</a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
-    <ul id="menu"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="experience.html">Experience</a></li><li><a href="awards.html">Awards</a></li><li><a href="mentoring.html">Mentoring</a></li><li><a href="news.html" class="active" aria-current="page">News</a></li><li><a href="mailto:info@sinadarabi.com">Contact</a></li></ul>
+    <ul id="menu"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="experience.html">Experience</a></li><li><a href="awards.html">Awards</a></li><li><a href="mentoring.html">Mentoring</a></li><li><a href="news.html" class="active" aria-current="page">News</a></li></ul>
   </div>
 </header>
 <main><div class="wrap page-head"><div class="eyebrow">News</div><h1>Latest updates</h1><p class="sub">Recent papers, talks, and milestones.</p></div><div class="wrap page-body"><ul class="news reveal"><li><span class="d">2026</span><span><b>Lazy-LLC</b> accepted at MICRO 2026, the 59th IEEE/ACM International Symposium on Microarchitecture.</span></li><li><span class="d">Sep 2026</span><span><b>Patient Bytes</b>, a reliability-budgeted scheduler for agentic LLM workflows, at AgenticOS ’26 in Prague.</span></li><li><span class="d">2026</span><span>Joined the <b>Barcelona Supercomputing Center</b> as a Senior Research Engineer.</span></li><li><span class="d">2026</span><span><b>CacheCatalyst</b> published at USENIX NSDI 2026.</span></li><li><span class="d">2026</span><span>Paper on distributed binary neural networks in programmable data planes accepted at IEEE/IFIP NOMS 2026.</span></li><li><span class="d">2025</span><span><b>Nano-consensus</b> presented at ACM SoCC 2025.</span></li></ul></div></main>
 <footer>
   <div class="wrap">
     <span>&copy; <span id="yr"></span> Sina Darabi · Barcelona, Spain</span>
-    <nav><a href="mailto:info@sinadarabi.com">Email</a><a href="https://scholar.google.com/citations?user=WtcbKwkAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a><a href="https://sina-hsa.github.io" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/sina-darabi-a7404584/?isSelfProfile=true" target="_blank" rel="noopener">LinkedIn</a></nav>
+    <nav><a href="mailto:sina@sinadarabi.com" aria-label="Email"><img class="email-image" src="images/email-address.png" alt="Email address"></a><a href="https://scholar.google.com/citations?user=WtcbKwkAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a><a href="https://sina-hsa.github.io" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/sina-darabi-a7404584/?isSelfProfile=true" target="_blank" rel="noopener">LinkedIn</a></nav>
   </div>
 </footer>
 <script>

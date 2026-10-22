@@ -109,6 +109,7 @@ header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 8
 footer{border-top:1px solid var(--line);padding:36px 0;color:var(--muted);font-size:.9rem}
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px}
 footer nav{display:flex;flex-wrap:wrap;gap:18px}
+footer .email-image{display:block;width:auto;height:1.35em}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
 .reveal.in{opacity:1;transform:none}
 @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
@@ -131,14 +132,14 @@ footer nav{display:flex;flex-wrap:wrap;gap:18px}
   <div class="wrap nav">
     <a class="brand" href="index.html">Sina Darabi</a>
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false">&#9776;</button>
-    <ul id="menu"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="experience.html">Experience</a></li><li><a href="awards.html" class="active" aria-current="page">Awards</a></li><li><a href="mentoring.html">Mentoring</a></li><li><a href="news.html">News</a></li><li><a href="mailto:info@sinadarabi.com">Contact</a></li></ul>
+    <ul id="menu"><li><a href="index.html">Home</a></li><li><a href="research.html">Research</a></li><li><a href="publications.html">Publications</a></li><li><a href="experience.html">Experience</a></li><li><a href="awards.html" class="active" aria-current="page">Awards</a></li><li><a href="mentoring.html">Mentoring</a></li><li><a href="news.html">News</a></li></ul>
   </div>
 </header>
 <main><div class="wrap page-head"><div class="eyebrow">Recognition</div><h1>Awards &amp; achievements</h1><p class="sub">Selected honors, grants, and milestones.</p></div><div class="wrap page-body"><ul class="awards reveal"><li><span class="y">2024</span><span>Passed the first stage of the <b>SNSF Ambizione</b> grant evaluation, the Swiss National Science Foundation scheme for independent research led by early-career researchers.</span></li><li><span class="y">2023</span><span><b>Best Ph.D. Thesis Award</b>, Computer Society of Iran: the national award for the best computer science Ph.D. thesis in Iran.</span></li><li><span class="y">2022</span><span>First Ph.D. student from an Iranian university with three top-tier computer architecture and systems conference papers (ISCA, MICRO, SIGMETRICS).</span></li><li><span class="y">2022</span><span><b>Morpheus</b> (MICRO 2022): the first MICRO paper from an Iranian university. Travel grant ($1,350) to attend SIGMETRICS 2022.</span></li><li><span class="y">2012</span><span>Research grant ($30,000) from Kermanshah University of Medical Sciences to develop a low-cost pacemaker.</span></li></ul></div></main>
 <footer>
   <div class="wrap">
     <span>&copy; <span id="yr"></span> Sina Darabi · Barcelona, Spain</span>
-    <nav><a href="mailto:info@sinadarabi.com">Email</a><a href="https://scholar.google.com/citations?user=WtcbKwkAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a><a href="https://sina-hsa.github.io" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/sina-darabi-a7404584/?isSelfProfile=true" target="_blank" rel="noopener">LinkedIn</a></nav>
+    <nav><a href="mailto:sina@sinadarabi.com" aria-label="Email"><img class="email-image" src="images/email-address.png" alt="Email address"></a><a href="https://scholar.google.com/citations?user=WtcbKwkAAAAJ&amp;hl=en" target="_blank" rel="noopener">Scholar</a><a href="https://sina-hsa.github.io" target="_blank" rel="noopener">GitHub</a><a href="https://www.linkedin.com/in/sina-darabi-a7404584/?isSelfProfile=true" target="_blank" rel="noopener">LinkedIn</a></nav>
   </div>
 </footer>
 <script>
